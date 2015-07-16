@@ -1,0 +1,9 @@
+{
+    "name": "comb-test",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {},
+    "devDependencies": {
+        "csscomb": "3.1.8"
+    }
+}

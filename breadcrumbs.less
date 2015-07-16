@@ -1,0 +1,36 @@
+.breadcrumbs {
+    .list();
+
+    font-size: 15px;
+}
+
+.breadcrumbs__item {
+    position: relative;
+
+    display: inline-block;
+
+    margin: 0 20px 0 10px;
+    padding: 0;
+}
+
+.breadcrumbs__item:first-child {
+    margin-left: 0;
+}
+
+.breadcrumbs__item:first-child:before {
+    display: none;
+}
+
+.breadcrumbs__item:before {
+    position: absolute;
+    left: -20px;
+
+    display: block;
+
+    width: 10px;
+
+    content: '>';
+    text-align: center;
+
+    color: @color-text-light-gray;
+}

@@ -1,0 +1,16 @@
+.win {
+    top: 1px;
+
+    padding: 10px;
+
+    border-right: 1px solid #eeeeee;
+}
+
+
+.win__elem {
+    font-size: 12px;
+
+    color: #ffffff;
+    border: 2px dashed #ff0000;
+    background: #000000;
+}
